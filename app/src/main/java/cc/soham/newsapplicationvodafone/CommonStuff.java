@@ -11,7 +11,6 @@ import cc.soham.newsapplicationvodafone.objects.Source;
 
 public class CommonStuff {
     public static List<Article> articles;
-    public static List<Source> sources;
 
     public static List<Article> getArticles() {
         return articles;
@@ -20,6 +19,8 @@ public class CommonStuff {
     public static void setArticles(List<Article> articles) {
         CommonStuff.articles = articles;
     }
+
+    public static List<Source> sources;
 
     public static List<Source> getSources() {
         return sources;
